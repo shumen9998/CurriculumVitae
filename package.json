@@ -1,0 +1,17 @@
+{
+  "name": "individual_b67073",
+  "version": "1.0.0",
+  "description": "Proyecto individual",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css --output-style expanded"
+  },
+  "author": "Jesus Soto Rojas B67073",
+  "license": "ISC"
+  
+}

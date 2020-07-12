@@ -1,0 +1,25 @@
+h1{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.paragraph{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    @media only screen and (min-width: 600px) {
+      font-size: 20px;
+      }
+
+}
+
+.a{
+    color: white;
+    &__i{
+        color: white;
+        font-size: 40px;
+        line-height: 80px;
+    }
+}

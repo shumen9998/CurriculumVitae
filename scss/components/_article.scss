@@ -1,0 +1,41 @@
+.article{
+  
+    &__acordeon{
+        text-align: center;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        margin-right: 10px;
+        min-width: 300px;
+       
+    }
+
+}
+
+.img{
+    min-width: 360px;
+    margin: 10px;
+
+}
+
+.div{
+    &__habilidades{
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+
+    }
+
+    &__progress{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 12px;
+    }
+
+}

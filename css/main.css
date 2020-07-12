@@ -1,0 +1,124 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+.header {
+  text-align: center;
+  background-color: #2F5586;
+  width: 100%;
+}
+@media only screen and (min-width: 700px) {
+  .header__info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .header__img {
+    border-radius: 140px;
+    border: black;
+    border-width: 4px;
+    margin-left: 10px;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer__redsocial {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: black;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 100px;
+  transition: 3s ease all;
+}
+
+.footer__redsocial .twit {
+  background: #00acee;
+}
+
+.footer__redsocial .face {
+  background: #3b5998;
+}
+
+.footer__redsocial .ins {
+  background: #3d2734;
+}
+
+.footer__redsocial .lin {
+  background: #0e76a8;
+}
+
+h1 {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.paragraph {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .paragraph {
+    font-size: 14px;
+  }
+}
+
+.article__acordeon {
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 10px;
+  min-width: 300px;
+}
+
+.img {
+  min-width: 360px;
+  margin: 10px;
+}
+
+.div__habilidades {
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.div__progress {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 12px;
+}
+
+section {
+  background-color: #4F5864;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
